@@ -104,3 +104,17 @@ http://47.95.249.79:8080/hello_post.html
     <url-pattern>/ServletLearn/HelloForm</url-pattern>
   </servlet-mapping>
 ```
+
+## CheckBox
+http://47.95.249.79:8080/checkbox.html
+
+```
+  <servlet>
+    <servlet-name>CheckBox</servlet-name>
+    <servlet-class>com.ysx.test.CheckBox</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckBox</servlet-name>
+    <url-pattern>/ServletLearn/CheckBox</url-pattern>
+  </servlet-mapping>
+```
