@@ -184,3 +184,26 @@ http://47.95.249.79:8080/ServletLearn/ShowError
 在linux的tomcat显示为404，但是在windows本地可以显示407。
 
 ## LogFilter Servlet 过滤器实例
+
+## ErrorHandler Servlet 错误处理程序实例
+http://47.95.249.79:8080/ServletLearn/UnKonwPage
+
+```
+  <servlet>
+    <servlet-name>ErrorHandler</servlet-name>
+    <servlet-class>com.ysx.test.ErrorHandler</servlet-class>
+  </servlet>
+  <!-- servlet mappings -->
+  <servlet-mapping>
+    <servlet-name>ErrorHandler</servlet-name>
+    <url-pattern>/ServletLearn/ErrorHandler</url-pattern>
+  </servlet-mapping>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/ServletLearn/ErrorHandler</location>
+  </error-page>
+  <error-page>
+    <exception-type>java.lang.Throwable</exception-type >
+    <location>/ErrorHandler</location>
+  </error-page>
+```
