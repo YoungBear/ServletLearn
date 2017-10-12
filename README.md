@@ -134,3 +134,20 @@ http://47.95.249.79:8080/readparams.html
     <url-pattern>/ServletLearn/ReadParams</url-pattern>
   </servlet-mapping>
 ```
+
+## DisplayHeader HTTP Header 请求实例
+对应API:`HttpServletRequest.getHeaderNames()`，返回结果是Enumeration<String>。
+
+http://47.95.249.79:8080/ServletLearn/DisplayHeader
+
+```
+  <servlet>
+    <servlet-name>DisplayHeader</servlet-name>
+    <servlet-class>com.ysx.test.DisplayHeader</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DisplayHeader</servlet-name>
+    <url-pattern>/ServletLearn/DisplayHeader</url-pattern>
+  </servlet-mapping>
+```
+
