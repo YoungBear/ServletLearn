@@ -91,6 +91,9 @@ http://47.95.249.79:8080/ServletLearn/HelloForm?name=菜鸟教程&url=www.runoob
 
 http://47.95.249.79:8080/hello.html
 
+post请求：
+http://47.95.249.79:8080/hello_post.html
+
 ```
   <servlet>
     <servlet-name>HelloForm</servlet-name>
