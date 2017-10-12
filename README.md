@@ -151,3 +151,24 @@ http://47.95.249.79:8080/ServletLearn/DisplayHeader
   </servlet-mapping>
 ```
 
+## Refresh HTTP Header 响应实例
+HttpServletResponse相关API：
+```
+void setContentType(String type)
+如果响应还未被提交，设置被发送到客户端的响应的内容类型。
+void setIntHeader(String name, int value)
+设置一个带有给定的名称和整数值的响应报头。
+```
+
+http://47.95.249.79:8080/ServletLearn/Refresh
+
+```
+  <servlet>
+    <servlet-name>Refresh</servlet-name>
+    <servlet-class>com.ysx.test.Refresh</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Refresh</servlet-name>
+    <url-pattern>/ServletLearn/Refresh</url-pattern>
+  </servlet-mapping>
+```
