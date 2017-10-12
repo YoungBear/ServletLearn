@@ -105,7 +105,7 @@ http://47.95.249.79:8080/hello_post.html
   </servlet-mapping>
 ```
 
-## CheckBox
+## CheckBox 复选框数据传递到 Servlet 程序
 http://47.95.249.79:8080/checkbox.html
 
 ```
@@ -116,5 +116,21 @@ http://47.95.249.79:8080/checkbox.html
   <servlet-mapping>
     <servlet-name>CheckBox</servlet-name>
     <url-pattern>/ServletLearn/CheckBox</url-pattern>
+  </servlet-mapping>
+```
+
+## ReadParams 读取所有的表单参数
+`HttpServletRequest.getParameterNames()`
+
+http://47.95.249.79:8080/readparams.html
+
+```
+  <servlet>
+    <servlet-name>ReadParams</servlet-name>
+    <servlet-class>com.ysx.test.ReadParams</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadParams</servlet-name>
+    <url-pattern>/ServletLearn/ReadParams</url-pattern>
   </servlet-mapping>
 ```
