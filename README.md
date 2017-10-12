@@ -84,3 +84,20 @@ public class HelloWorld extends HttpServlet {
 }
 
 ```
+
+## HelloForm
+
+http://47.95.249.79:8080/ServletLearn/HelloForm?name=菜鸟教程&url=www.runoob.com
+
+http://47.95.249.79:8080/hello.html
+
+```
+  <servlet>
+    <servlet-name>HelloForm</servlet-name>
+    <servlet-class>com.ysx.test.HelloForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloForm</servlet-name>
+    <url-pattern>/ServletLearn/HelloForm</url-pattern>
+  </servlet-mapping>
+```
