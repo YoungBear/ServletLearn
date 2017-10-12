@@ -207,3 +207,17 @@ http://47.95.249.79:8080/ServletLearn/UnKonwPage
     <location>/ErrorHandler</location>
   </error-page>
 ```
+
+## DatabaseAccess Servlet 数据库访问
+http://47.95.249.79:8080/ServletLearn/DatabaseAccess
+
+```
+  <servlet>
+    <servlet-name>DatabaseAccess</servlet-name>
+    <servlet-class>com.ysx.test.DatabaseAccess</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DatabaseAccess</servlet-name>
+    <url-pattern>/ServletLearn/DatabaseAccess</url-pattern>
+  </servlet-mapping> 
+```
