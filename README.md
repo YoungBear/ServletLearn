@@ -172,3 +172,14 @@ http://47.95.249.79:8080/ServletLearn/Refresh
     <url-pattern>/ServletLearn/Refresh</url-pattern>
   </servlet-mapping>
 ```
+
+## ShowError HTTP 状态码实例
+HttpServletResponse相关API：
+```
+public void sendError(int code, String message)
+该方法发送一个状态码（通常为 404），连同一个在 HTML 文档内部自动格式化并发送到客户端的短消息。
+```
+http://47.95.249.79:8080/ServletLearn/ShowError
+
+在linux的tomcat显示为404，但是在windows本地可以显示407。
+
