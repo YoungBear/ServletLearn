@@ -221,3 +221,6 @@ http://47.95.249.79:8080/ServletLearn/DatabaseAccess
     <url-pattern>/ServletLearn/DatabaseAccess</url-pattern>
   </servlet-mapping> 
 ```
+
+## UploadServlet Servlet 文件上传
+在tomcat部署不成功，但是用eclipse直接运行可以上传。
