@@ -226,7 +226,7 @@ http://47.95.249.79:8080/ServletLearn/DatabaseAccess
 在tomcat部署不成功，但是用eclipse直接运行可以上传。
 
 ## PageRedirect Servlet 网页重定向
-47.95.249.79:8080/ServletLearn/PageRedirect
+http://47.95.249.79:8080/ServletLearn/PageRedirect
 
 ```
   <servlet>
@@ -238,4 +238,32 @@ http://47.95.249.79:8080/ServletLearn/DatabaseAccess
     <servlet-name>PageRedirect</servlet-name>
     <url-pattern>/ServletLearn/PageRedirect</url-pattern>
   </servlet-mapping>
+```
+
+## PageHitCounter Servlet 点击计数器
+http://47.95.249.79:8080/ServletLearn/PageHitCounter
+
+```
+  <servlet>
+    <display-name>PageHitCounter</display-name>
+    <servlet-name>PageHitCounter</servlet-name>
+    <servlet-class>com.ysx.test.PageHitCounter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PageHitCounter</servlet-name>
+    <url-pattern>/ServletLearn/PageHitCounter</url-pattern>
+  </servlet-mapping>
+```
+
+## SiteHitCounter 网站点击计数器
+```
+  <filter>
+    <filter-name>SiteHitCounter</filter-name>
+    <filter-class>com.ysx.test.SiteHitCounter</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>SiteHitCounter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping> 
 ```
