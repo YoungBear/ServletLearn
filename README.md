@@ -224,3 +224,18 @@ http://47.95.249.79:8080/ServletLearn/DatabaseAccess
 
 ## UploadServlet Servlet 文件上传
 在tomcat部署不成功，但是用eclipse直接运行可以上传。
+
+## PageRedirect Servlet 网页重定向
+47.95.249.79:8080/ServletLearn/PageRedirect
+
+```
+  <servlet>
+    <display-name>PageRedirect</display-name>
+    <servlet-name>PageRedirect</servlet-name>
+    <servlet-class>com.ysx.test.PageRedirect</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PageRedirect</servlet-name>
+    <url-pattern>/ServletLearn/PageRedirect</url-pattern>
+  </servlet-mapping>
+```
